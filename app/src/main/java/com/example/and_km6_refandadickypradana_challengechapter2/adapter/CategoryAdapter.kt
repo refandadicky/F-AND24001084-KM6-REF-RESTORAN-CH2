@@ -1,4 +1,4 @@
-package com.example.and_km6_refandadickypradana_challengechapter2
+package com.example.and_km6_refandadickypradana_challengechapter2.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

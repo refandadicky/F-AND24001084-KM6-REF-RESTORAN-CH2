@@ -7,6 +7,6 @@ data class ListMenu (
     var id : String= UUID.randomUUID().toString(),
     @DrawableRes
     var image: Int,
-    var price: String,
+    var price: Double,
     var name: String,
 )

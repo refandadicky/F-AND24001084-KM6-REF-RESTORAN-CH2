@@ -1,4 +1,4 @@
-package com.example.and_km6_refandadickypradana_challengechapter2
+package com.example.and_km6_refandadickypradana_challengechapter2.adapter
 
 
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.and_km6_refandadickypradana_challengechapter2.databinding.LayoutListmenuBinding
 import com.example.and_km6_refandadickypradana_challengechapter2.model.ListMenu
+import com.example.and_km6_refandadickypradana_challengechapter2.utils.toIndonesianFormat
 
 class ListMenuAdapter : RecyclerView.Adapter<ListMenuAdapter.ListMenuViewHolder>() {
     private val data = mutableListOf<ListMenu>()
@@ -19,7 +20,7 @@ class ListMenuAdapter : RecyclerView.Adapter<ListMenuAdapter.ListMenuViewHolder>
 
         fun bind(item: ListMenu) {
             binding.tvListmenuName.text = item.name
-            binding.tvListmenuPrice.text = item.price
+            binding.tvListmenuPrice.text = item.price.toIndonesianFormat()
             binding.ivListmenuImage.setImageResource(item.image)
 
         }
