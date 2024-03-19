@@ -1,4 +1,4 @@
-package com.example.and_km6_refandadickypradana_challengechapter2.model
+package com.example.and_km6_refandadickypradana_challengechapter2.data.model
 
 import androidx.annotation.DrawableRes
 import java.util.UUID

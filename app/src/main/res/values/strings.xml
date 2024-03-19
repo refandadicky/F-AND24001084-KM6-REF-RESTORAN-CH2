@@ -11,4 +11,12 @@
     <string name="text_category4">Mie</string>
     <string name="text_category5">Ayam</string>
     <string name="text_listmenu">List Menu Makanan</string>
+    <string name="location">Location</string>
+    <string name="detail_location">Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang, Banten 15345</string>
+    <string name="addition">0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="grid_mode">Grid Mode</string>
+    <string name="add_to_card">Tambah ke Keranjang - Rp. 18.000</string>
+    <string name="add_to_string">Tambah ke Keranjang  %1$s</string>
 </resources>

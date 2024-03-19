@@ -1,10 +1,10 @@
-package com.example.and_km6_refandadickypradana_challengechapter2.adapter
+package com.example.and_km6_refandadickypradana_challengechapter2.feature.menudetail.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.and_km6_refandadickypradana_challengechapter2.databinding.LayoutCategoryBinding
-import com.example.and_km6_refandadickypradana_challengechapter2.model.Category
+import com.example.and_km6_refandadickypradana_challengechapter2.data.model.Category
 
 class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
     private val data = mutableListOf<Category>()
