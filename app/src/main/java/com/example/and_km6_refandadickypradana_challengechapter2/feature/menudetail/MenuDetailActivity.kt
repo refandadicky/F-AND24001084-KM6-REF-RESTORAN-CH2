@@ -79,6 +79,7 @@ class MenuDetailActivity : AppCompatActivity() {
         binding.layoutMenuDetail.tvDetailName.text = listMenu.name
         binding.layoutMenuDetail.tvDetailPrice.text = listMenu.price.toIndonesianFormat()
         binding.layoutMenuDetail.tvDetailMenu.text = listMenu.detailMenu
+        binding.layoutLocationDetail.tvDetailLocation.text = listMenu.address
         binding.layoutLocationDetail.tvDetailLocation.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW)
             i.setData(Uri.parse(listMenu.mapsUrl))
