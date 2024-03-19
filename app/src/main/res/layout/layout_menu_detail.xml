@@ -29,11 +29,11 @@
 
     <TextView
         android:id="@+id/tv_detail_menu"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
         android:textSize="12sp"
-        android:maxLines="6"
+        android:maxLines="10"
         android:ellipsize="end"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -12,6 +12,7 @@ data class ListMenu (
     var image: Int,
     var price: Double,
     var name: String,
+    var detailMenu: String,
     var address: String,
     var mapsUrl: String
 ) : Parcelable
